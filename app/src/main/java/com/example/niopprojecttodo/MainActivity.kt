@@ -5,6 +5,7 @@ import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
+import android.view.MenuItem
 import androidx.activity.viewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -19,10 +20,24 @@ class MainActivity : AppCompatActivity(), TaskItemClickListener
         TaskItemModelFactory((application as TodoApplication).repository)
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         val inflater = menuInflater
         inflater.inflate(R.menu.menu_main, menu)
         return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.croatian -> {
+                changeLanguage(this, "hr")
+                recreate()
+            }
+            R.id.english -> {
+                changeLanguage(this, "en")
+                recreate()
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 
 

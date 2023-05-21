@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NiOPProjectToDo</string>
+    <string name="app_name">Kvačica</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
     <string name="new_task">New Task</string>
@@ -9,4 +9,6 @@
     <string name="checkbox" translatable="false">CheckBox</string>
     <string name="place_holder" translatable="false">place_holder</string>
     <string name="place_holder2" translatable="false">place_holder</string>
+    <string name="name" >Title</string>
+    <string name="taskTitle" >New task</string>
 </resources>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">NiOPProjectToDo</string>
+    <string name="app_name">Kvačica</string>
     <string name="new_task">Novi zadatak</string>
     <string name="description">Opis</string>
     <string name="select_time">Vrijeme</string>
     <string name="save">Spremi</string>
+    <string name="name" >Naslov</string>
+    <string name="taskTitle" >Novi zadatak</string>
 </resources>
