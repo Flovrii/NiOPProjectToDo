@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">NiOPProjectToDo</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="new_task">New Task</string>
+    <string name="description">Description</string>
+    <string name="select_time">Select Time</string>
+    <string name="save">Save</string>
+    <string name="checkbox" translatable="false">CheckBox</string>
+    <string name="place_holder" translatable="false">place_holder</string>
+    <string name="place_holder2" translatable="false">place_holder</string>
 </resources>
